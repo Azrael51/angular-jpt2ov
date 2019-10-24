@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Vehiculoo}  from  './vehiculoo';
+import {Vehiculoo}  from  './ehiculoo';
 import {Estacionn}  from './estacionn ';
+import { ServicioService } from './servicio.service';
+
 
 
 @Component({
