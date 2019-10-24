@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Vehiculoo}  from './vehiculoo' ;
+import {Vehiculoo}  from  './vehiculoo';
 import {Estacionn}  from './estacionn ';
 
 

@@ -15,11 +15,12 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 import {VincularService }from '../proyecto/servicios/vincular.service';
 import{PersonaComponent} from '../proyecto/persona/persona.component';
+import {GasolinaComponent} from '../gasolina/gasolina.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent],
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent, GasolinaComponent],
   bootstrap:    [ AppComponent ],
   providers: [ServicioService],
   
