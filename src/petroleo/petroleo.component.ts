@@ -5,7 +5,7 @@ import {ServicioService }from './Servicios/petroleo.service';
   templateUrl: './petroleo.component.html',
   styleUrls: ['./petroleo.component.css']
 })
-export class PEtroleoComponent implements OnInit {
+export class PetroleoComponent implements OnInit {
             id:number;
             ubicacionGeografica:string ;
             nombreRefineria:string ;
@@ -17,6 +17,8 @@ export class PEtroleoComponent implements OnInit {
 
   ngOnInit() {
   }
+  RegistroMedicionMetano():void{
 
+  }
 
 }
