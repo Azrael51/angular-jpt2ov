@@ -18,7 +18,7 @@ import{PersonaComponent} from '../proyecto/persona/persona.component';
 import {GasolinaComponent} from '../gasolina/gasolina.component';
 import { Componente1Component } from './componente1/componente1.component';
 import { Componente2Component } from './componente2/componente2.component';
-import {RouterModule} from '@angular/router';
+import {RouterModule, Rout} from '@angular/router';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
