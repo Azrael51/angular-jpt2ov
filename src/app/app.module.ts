@@ -18,8 +18,12 @@ import{PersonaComponent} from '../proyecto/persona/persona.component';
 import {GasolinaComponent} from '../gasolina/gasolina.component';
 import { Componente1Component } from './componente1/componente1.component';
 import { Componente2Component } from './componente2/componente2.component';
-import {RouterModule, Rout} from '@angular/router';
-
+import {RouterModule, Routes} from '@angular/router';
+const appRoutes:Routes=[
+  {path:'',component:Componente1Component},
+  {path:"componente1", componetn:Componente1Component},  
+  {path:"componente2", componetn:Componente2Component}
+];
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
   declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent, GasolinaComponent, Componente1Component, Componente2Component],
@@ -28,8 +32,3 @@ import {RouterModule, Rout} from '@angular/router';
   
 })
 export class AppModule { }
-const appRoutes:Routes=[{
-  path:'',component:-Componente1Component},
-  {path:'componente1', componetn:Componente1Component},  
-  {path:'componente2/:id', componetn:Componente2Component}
-}];
