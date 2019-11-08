@@ -21,8 +21,8 @@ import { Componente2Component } from './componente2/componente2.component';
 import {RouterModule, Routes} from '@angular/router';
 const appRoutes:Routes=[
   {path:'',component:Componente1Component},
-  {path:"componente1", componetn:Componente1Component},  
-  {path:"componente2", componetn:Componente2Component}
+  {path:"componente1", component:Componente1Component},  
+  {path:"componente2", component:Componente2Component}
 ];
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
