@@ -19,6 +19,9 @@ import {GasolinaComponent} from '../gasolina/gasolina.component';
 import { Componente1Component } from './componente1/componente1.component';
 import { Componente2Component } from './componente2/componente2.component';
 import {RouterModule, Routes} from '@angular/router';
+import { ProyectoUnionComponent } from './proyecto-union/proyecto-union.component';
+import { DocumentosComponent } from './documentos/documentos.component';
+import { PersonasComponent } from './personas/personas.component';
 const appRoutes:Routes=[
   {path:'',component:Componente1Component},
   {path:"componente1", component:Componente1Component},  
@@ -26,7 +29,7 @@ const appRoutes:Routes=[
 ];
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(appRoutes) ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent, GasolinaComponent, Componente1Component, Componente2Component],
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent, GasolinaComponent, Componente1Component, Componente2Component, ProyectoUnionComponent, DocumentosComponent, PersonasComponent],
   bootstrap:    [ AppComponent ],
   providers: [ServicioService],
   
